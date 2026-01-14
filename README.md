@@ -1,1 +1,1 @@
-# Langiage-and-AI-Group-13
+# Language-and-AI-Group-13
