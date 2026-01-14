@@ -1,0 +1,21 @@
+{
+  "run_name": "baseline",
+  "data_path": "gender_cleaned.csv",
+  "accuracy": 0.8455412091227223,
+  "precision": 0.8493808440737933,
+  "recall": 0.830902348578492,
+  "f1": 0.8400399900024994,
+  "specificity": 0.8595002357378595,
+  "false_positive_rate": 0.1404997642621405,
+  "false_negative_rate": 0.16909765142150804,
+  "roc_auc": 0.9164450614229708,
+  "tn": 3646,
+  "fp": 596,
+  "fn": 684,
+  "tp": 3361,
+  "best_params": {
+    "ngram_range": "(1, 2)",
+    "min_df": 5,
+    "C": 2.0
+  }
+}
