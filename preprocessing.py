@@ -289,9 +289,6 @@ def preprocess_dataset(
 
     return df
 
-
-# 6) Run code
-
 if __name__ == "__main__":
     DATA_PATH = "gender.csv"
 
@@ -324,3 +321,4 @@ if __name__ == "__main__":
 
 
     print("\nSaved: gender_cleaned.csv and gender_cleaned_punct.csv")
+
