@@ -26,7 +26,5 @@ class Config:
     lr_class_weight = None  
 
     # Saving
-    save_model: bool = True
-    model_filename: str = "logreg_tfidf_model.joblib"
     metrics_filename: str = "final_metrics.json"
     cv_filename: str = "cv_results.csv"
