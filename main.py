@@ -55,6 +55,4 @@ if __name__ == "__main__":
         print(f"  - {cfg.metrics_filename}")
         print(f"  - roc_curve.png")
         print(f"  - top_tokens.csv")
-        if cfg.save_model:
-            print(f"  - {cfg.model_filename}")
-            
+          
