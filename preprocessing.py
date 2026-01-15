@@ -246,7 +246,7 @@ def load_clean_and_filter(
 
     return df.reset_index(drop=True)
     
-# 5. Main processing function
+# 5. Main preprocessing function
 
 def preprocess_dataset(
     csv_path: str,
@@ -321,5 +321,6 @@ if __name__ == "__main__":
         df_preloaded=base_df,   
     )
     df_clean_punct[["auhtor_ID", "post_clean", "female"]].to_csv("gender_cleaned_punct.csv", index=False)
+
 
     print("\nSaved: gender_cleaned.csv and gender_cleaned_punct.csv")
